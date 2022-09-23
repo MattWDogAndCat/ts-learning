@@ -1,3 +1,4 @@
+//即是特殊的数组
 let tuple1: [number, string];
 tuple1 = [1, "apple"];
 

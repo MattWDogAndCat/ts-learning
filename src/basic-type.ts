@@ -1,22 +1,20 @@
 //string
-let str1: string = "hello world";
-
+let example1: string = "test1";
 //number
-let num1: number = 1;
-
+let example2: number = 1;
 //boolean
-let bool: boolean = true;
-
+let example3: boolean = true;
+//undefined
+let example4: undefined = undefined;
 //null
-let nul: null = null;
-
-// undefine
-let example: undefined = undefined;
-
+let example5: null = null;
+//any
+let example6: any;
+//unknown
+let example7: unknown;
 
 //assertions
-let dom1 = document.querySelector('body') as HTMLBodyElement;
-let dom2 = <HTMLBodyElement>document.querySelector('body');
-console.log(dom1.id); 
+let dom1 = document.querySelector("body") as HTMLBodyElement;
+let dom2 = <HTMLBodyElement>document.querySelector("body");
+console.log(dom1.id);
 console.log(dom2.id);
-
