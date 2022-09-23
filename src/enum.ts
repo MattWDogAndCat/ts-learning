@@ -20,5 +20,5 @@ enum size3 {
   large = "lg",
 }
 
-//use
+//使用enum
 const buttonSize: size = size.large;
